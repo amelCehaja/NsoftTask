@@ -1,4 +1,4 @@
-FROM openjdk:12
+FROM openjdk:11
 EXPOSE 8080
 WORKDIR /app
 COPY target/match-end-result-sinking-service-0.0.1-SNAPSHOT.jar .
